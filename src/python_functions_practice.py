@@ -1,7 +1,6 @@
 def return_10():
     return 10
 
-
 def add(num1, num2):
     sum = num1 + num2
     return sum
@@ -30,13 +29,37 @@ def add_string_as_number(string1, string2):
 
 def number_to_full_month_name(num):
     
-    months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "Decemeber"]
+    months = [
+        "January", 
+        "February", 
+        "March", 
+        "April", 
+        "May", 
+        "June", 
+        "July", 
+        "August", 
+        "September", 
+        "October", 
+        "November", 
+        "Decemeber"]
 
     return months[num-1]
 
 def number_to_short_month_name(num):
 
-    months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "Decemeber"]
+    months = [
+        "January", 
+        "February", 
+        "March", 
+        "April", 
+        "May", 
+        "June", 
+        "July", 
+        "August", 
+        "September", 
+        "October", 
+        "November", 
+        "Decemeber"]
 
     res = months[num-1]
     return res[0:3]
@@ -46,7 +69,6 @@ def vol_cube(length):
 
 def reverse(string):
     return string[::-1]\
-
 
 def far_con_cels(temp):
     return (temp -32) * 0.5556
